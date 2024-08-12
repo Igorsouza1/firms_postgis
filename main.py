@@ -55,7 +55,7 @@ def main():
             logging.info(f'Dados filtrados a partir de {last_detection_time}, total de linhas: {len(filtered_gdf)}')
 
         data_to_insert = {}
-        for row in filtered_gdf.iterrows():
+        for _, row in filtered_gdf.iterrows():
             table_name = get_table_name(row['acq_date'].strftime('%Y-%m-%d'))
             if table_name not in data_to_insert:
                 create_monthly_table(cur, schema_name, table_name)

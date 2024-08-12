@@ -3,3 +3,7 @@ execution_log.txt
 firms_data.csv
 filtered_data.geojson
 processed_data.geojson
+.log
+execute.bat
+rmdir
+FIRMS_old.py
