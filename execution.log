@@ -267,40 +267,82 @@ psycopg2.errors.InvalidParameterValue: Geometry SRID (4674) does not match colum
 2024-08-09 06:40:20 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
 2024-08-09 17:00:27 - INFO - Última hora de detecção no banco de dados: None
 2024-08-09 17:00:27 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
-2024-08-10 06:40:11 - INFO - Última hora de detecção no banco de dados: None
-2024-08-10 06:40:11 - ERROR - Erro durante a execução: tuple indices must be integers or slices, not str
-Traceback (most recent call last):
-  File "E:\BD_IHP\Automacoes\FIRMS\FirmsAtualizacao\main.py", line 59, in main
-    table_name = get_table_name(row['acq_date'].strftime('%Y-%m-%d'))
-                                ~~~^^^^^^^^^^^^
-TypeError: tuple indices must be integers or slices, not str
-2024-08-10 17:00:27 - INFO - Última hora de detecção no banco de dados: None
-2024-08-10 17:00:27 - ERROR - Erro durante a execução: tuple indices must be integers or slices, not str
-Traceback (most recent call last):
-  File "E:\BD_IHP\Automacoes\FIRMS\FirmsAtualizacao\main.py", line 59, in main
-    table_name = get_table_name(row['acq_date'].strftime('%Y-%m-%d'))
-                                ~~~^^^^^^^^^^^^
-TypeError: tuple indices must be integers or slices, not str
-2024-08-11 06:40:15 - INFO - Última hora de detecção no banco de dados: None
-2024-08-11 06:40:15 - ERROR - Erro durante a execução: tuple indices must be integers or slices, not str
-Traceback (most recent call last):
-  File "E:\BD_IHP\Automacoes\FIRMS\FirmsAtualizacao\main.py", line 59, in main
-    table_name = get_table_name(row['acq_date'].strftime('%Y-%m-%d'))
-                                ~~~^^^^^^^^^^^^
-TypeError: tuple indices must be integers or slices, not str
-2024-08-11 17:00:25 - INFO - Última hora de detecção no banco de dados: None
-2024-08-11 17:00:25 - ERROR - Erro durante a execução: tuple indices must be integers or slices, not str
-Traceback (most recent call last):
-  File "E:\BD_IHP\Automacoes\FIRMS\FirmsAtualizacao\main.py", line 59, in main
-    table_name = get_table_name(row['acq_date'].strftime('%Y-%m-%d'))
-                                ~~~^^^^^^^^^^^^
-TypeError: tuple indices must be integers or slices, not str
-2024-08-12 06:40:24 - INFO - Última hora de detecção no banco de dados: None
-2024-08-12 06:40:24 - ERROR - Erro durante a execução: tuple indices must be integers or slices, not str
-Traceback (most recent call last):
-  File "E:\BD_IHP\Automacoes\FIRMS\FirmsAtualizacao\main.py", line 59, in main
-    table_name = get_table_name(row['acq_date'].strftime('%Y-%m-%d'))
-                                ~~~^^^^^^^^^^^^
-TypeError: tuple indices must be integers or slices, not str
+
+ERROR - Typedate -> 10/08 - 11/08
+
 2024-08-12 12:06:09 - INFO - Última hora de detecção no banco de dados: None
 2024-08-12 12:06:09 - INFO - 416 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-12 12:14:04 - INFO - Última hora de detecção no banco de dados: None
+2024-08-12 12:14:05 - INFO - 405 linhas inseridas nas tabelas no esquema FIRMS ---> 11/08
+2024-08-12 12:15:23 - INFO - Última hora de detecção no banco de dados: None
+2024-08-12 12:15:23 - INFO - 134 linhas inseridas nas tabelas no esquema FIRMS ---> 10/08
+2024-08-12 17:00:37 - INFO - Última hora de detecção no banco de dados: 18:04:00
+2024-08-12 17:00:37 - INFO - Dados filtrados a partir de 18:04:00, total de linhas: 0
+2024-08-12 17:00:37 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-13 06:40:19 - INFO - Última hora de detecção no banco de dados: 18:04:00
+2024-08-13 06:40:19 - INFO - Dados filtrados a partir de 18:04:00, total de linhas: 0
+2024-08-13 06:40:19 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-13 15:57:09 - INFO - Última hora de detecção no banco de dados: 18:04:00
+2024-08-13 15:57:09 - INFO - Dados filtrados a partir de 18:04:00, total de linhas: 0
+2024-08-13 15:57:09 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-13 15:58:37 - INFO - Última hora de detecção no banco de dados: 04:53:00
+2024-08-13 15:58:37 - INFO - Dados filtrados a partir de 04:53:00, total de linhas: 549
+2024-08-13 15:58:38 - INFO - 549 linhas inseridas nas tabelas no esquema FIRMS
+
+2024-08-13 16:03:53 - INFO - Última hora de detecção no banco de dados: None
+2024-08-13 16:03:54 - INFO - 564 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-13 17:00:28 - INFO - Última hora de detecção no banco de dados: 04:36:00
+2024-08-13 17:00:28 - INFO - Dados filtrados a partir de 04:36:00, total de linhas: 286
+2024-08-13 17:00:28 - INFO - 286 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-14 06:40:15 - INFO - Última hora de detecção no banco de dados: None
+2024-08-14 06:40:16 - INFO - 184 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-14 17:00:32 - INFO - Última hora de detecção no banco de dados: 05:57:00
+2024-08-14 17:00:32 - INFO - Dados filtrados a partir de 05:57:00, total de linhas: 368
+2024-08-14 17:00:32 - INFO - 368 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-15 06:40:13 - INFO - Última hora de detecção no banco de dados: None
+2024-08-15 06:40:13 - INFO - 341 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-15 17:00:26 - INFO - Última hora de detecção no banco de dados: 05:38:00
+2024-08-15 17:00:26 - INFO - Dados filtrados a partir de 05:38:00, total de linhas: 221
+2024-08-15 17:00:26 - INFO - 221 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-16 06:40:15 - INFO - Última hora de detecção no banco de dados: None
+2024-08-16 06:40:15 - INFO - 311 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-16 17:00:34 - INFO - Última hora de detecção no banco de dados: 05:21:00
+2024-08-16 17:00:34 - INFO - Dados filtrados a partir de 05:21:00, total de linhas: 692
+2024-08-16 17:00:34 - INFO - 692 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-17 06:40:16 - INFO - Última hora de detecção no banco de dados: None
+2024-08-17 06:40:17 - INFO - 407 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-17 17:00:35 - INFO - Última hora de detecção no banco de dados: 05:01:00
+2024-08-17 17:00:35 - INFO - Dados filtrados a partir de 05:01:00, total de linhas: 742
+2024-08-17 17:00:36 - INFO - 742 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-18 06:40:15 - INFO - Última hora de detecção no banco de dados: None
+2024-08-18 06:40:15 - INFO - 265 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-18 17:00:18 - INFO - Última hora de detecção no banco de dados: 04:42:00
+2024-08-18 17:00:18 - INFO - Dados filtrados a partir de 04:42:00, total de linhas: 633
+2024-08-18 17:00:19 - INFO - 633 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-19 06:40:21 - INFO - Última hora de detecção no banco de dados: None
+2024-08-19 06:40:21 - INFO - 310 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-19 17:00:30 - INFO - Última hora de detecção no banco de dados: 04:23:00
+2024-08-19 17:00:30 - INFO - Dados filtrados a partir de 04:23:00, total de linhas: 655
+2024-08-19 17:00:30 - INFO - 655 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-20 06:40:12 - INFO - Última hora de detecção no banco de dados: None
+2024-08-20 06:40:12 - INFO - 318 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-20 12:03:36 - INFO - Última hora de detecção no banco de dados: 05:46:00
+2024-08-20 12:03:36 - INFO - Dados filtrados a partir de 05:46:00, total de linhas: 0
+2024-08-20 12:03:36 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-20 12:07:00 - INFO - Última hora de detecção no banco de dados: 05:46:00
+2024-08-20 12:07:00 - INFO - Dados filtrados a partir de 05:46:00, total de linhas: 0
+2024-08-20 12:07:00 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-20 17:00:25 - INFO - Última hora de detecção no banco de dados: 05:46:00
+2024-08-20 17:00:25 - INFO - Dados filtrados a partir de 05:46:00, total de linhas: 357
+2024-08-20 17:00:25 - INFO - 357 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-21 06:40:12 - INFO - Última hora de detecção no banco de dados: None
+2024-08-21 06:40:12 - INFO - 235 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-21 17:00:30 - INFO - Última hora de detecção no banco de dados: 05:25:00
+2024-08-21 17:00:30 - INFO - Dados filtrados a partir de 05:25:00, total de linhas: 0
+2024-08-21 17:00:30 - INFO - 0 linhas inseridas nas tabelas no esquema FIRMS
+2024-08-22 06:40:21 - INFO - Última hora de detecção no banco de dados: None
+2024-08-22 06:40:22 - INFO - 1468 linhas inseridas nas tabelas no esquema FIRMS
+
+2024-08-22 10:18:16 - INFO - Última hora de detecção no banco de dados: 05:25:00
+2024-08-22 10:18:16 - INFO - Dados filtrados a partir de 05:25:00, total de linhas: 1388
+2024-08-22 10:18:16 - INFO - 1388 linhas inseridas nas tabelas no esquema FIRMS

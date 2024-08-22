@@ -29,7 +29,7 @@ def main():
         schema_name = env_vars['schema_name']
         tabela_trabalhada = "agosto_2024"
         today = datetime.today().strftime('%Y-%m-%d')
-        url = f"https://firms.modaps.eosdis.nasa.gov/api/country/csv/70e04b8239b80f583c2af0f373766037/VIIRS_NOAA20_NRT/BRA/1/{today}"
+        url = f"https://firms.modaps.eosdis.nasa.gov/api/country/csv/70e04b8239b80f583c2af0f373766037/VIIRS_NOAA20_NRT/BRA/{today}"
         csv_filename = "firms_data.csv"
 
 

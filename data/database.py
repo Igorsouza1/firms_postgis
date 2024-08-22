@@ -1,6 +1,7 @@
 import psycopg2
-from datetime import datetime
+from datetime import datetime, date
 from typing import Optional
+
 
 def create_monthly_table(cur, schema_name: str, table_name: str) -> None:
     cur.execute(f'''
@@ -22,14 +23,15 @@ def create_monthly_table(cur, schema_name: str, table_name: str) -> None:
         )
     ''')
 
-today = '2024-07-26'
+today = date.today()
+# today = '2024-08-21'
 
 def get_last_detection_time(cur, schema_name: str, table_name: str) -> Optional[datetime.time]:
     cur.execute(f'''
         SELECT hora_deteccao FROM {schema_name}.{table_name}
         WHERE acq_date = %s
         ORDER BY hora_deteccao DESC LIMIT 1
-    ''', (datetime.today().date(),))
+    ''', (today,))
     result = cur.fetchone()
     if result:
         print(f'Pegando a hora da ultima detecção --- {result[0]} --- {datetime.today()}' )
